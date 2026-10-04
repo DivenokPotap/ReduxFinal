@@ -1,36 +1,41 @@
 {
-  "name": "goit-react-textbook-lesson-14-redux-toolkit-reselect",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "redux",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://github.com/DivenokPotap/ReduxFinal",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
-    "@redux-devtools/extension": "3.2.3",
-    "@reduxjs/toolkit": "1.8.5",
-    "axios": "0.27.2",
-    "clsx": "1.2.1",
-    "nanoid": "4.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "4.4.0",
-    "react-redux": "8.0.2",
-    "react-scripts": "4.0.0",
-    "redux": "4.2.0"
+    "@redux-devtools/extension": "^4.0.0",
+    "@reduxjs/toolkit": "^2.13.0",
+    "axios": "^1.20.0",
+    "clsx": "^2.1.1",
+    "json-server": "^1.0.0-beta.15",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.6.0",
+    "react-redux": "^9.3.0",
+    "react-router": "^8.4.0",
+    "react-router-dom": "^7.18.4",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/runtime": "7.13.8",
-    "typescript": "4.1.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@babel/core": "^7.29.7",
+    "@rolldown/plugin-babel": "^0.2.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "gh-pages": "^6.3.0",
+    "oxlint": "^1.69.0",
+    "vite": "^8.1.0"
+  }
 }
